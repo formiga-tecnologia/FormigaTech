@@ -1,0 +1,31 @@
+body{
+    overflow-x: hidden;
+}
+nav{
+    margin-top: -2vh;
+    background-color: #bdbdbd;
+    margin-left: -2vh;
+    width: 223vh;
+    -webkit-box-shadow: -1px 11px 16px -4px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px 11px 16px -4px rgba(0,0,0,0.72);
+    box-shadow: -1px 11px 16px -4px rgba(0,0,0,0.72);
+}
+nav ul{
+    margin-top: -8vh;
+}
+nav ul li{
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10vh;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    transition: 1s;
+    color: black;
+}
